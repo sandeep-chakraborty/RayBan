@@ -87,13 +87,20 @@ body {
 }
 #heroleft {
   min-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #heroleft button {
   pointer-events: all;
   margin-top: 4vw;
-  padding: 0.8vw 4vw;
   font-size: 3vw;
   font-family: "Kajiro";
+  padding: 0.8vw 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
 }
 #heroleft .elem {
   position: relative;

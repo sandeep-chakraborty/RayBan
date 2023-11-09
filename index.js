@@ -8,7 +8,7 @@ function imageEffect() {
       gooey: { value: true },
       infiniteGooey: { value: true },
       growSize: { value: 4, range: [1, 15] },
-      durationOut: { value: 1, range: [0.1, 5] },
+      durationOut: { value: 1, range: [0., 5] },
       durationIn: { value: 1.03, range: [0.1, 5] },
       displaceAmount: { value: 0.5 },
       masker: { value: true },
